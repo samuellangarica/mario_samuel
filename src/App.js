@@ -1,4 +1,5 @@
-import logo from './logo.svg';
+import React from 'react';
+import logo from './logo_up.png';
 import './App.css';
 
 function App() {
@@ -6,17 +7,16 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className="wavy">
+          <span style={{'--i': 1}}>L</span>
+          <span style={{'--i': 2}}>o</span>
+          <span style={{'--i': 3}}>a</span>
+          <span style={{'--i': 4}}>d</span>
+          <span style={{'--i': 5}}>i</span>
+          <span style={{'--i': 6}}>n</span>
+          <span style={{'--i': 7}}>g</span>
+          <span style={{'--i': 8}}>.</span>
+        </div>
       </header>
     </div>
   );
