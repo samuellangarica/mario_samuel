@@ -1,0 +1,18 @@
+.content {
+    background-color: rgb(166, 166, 166);
+    width: 50vw;
+    margin-left: 10vw;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+#p-name {
+    font-size: 30px;
+    width: 50%;
+    height: auto;
+    text-align: center;
+}
+
+.details p {
+    font-weight: bold;
+}

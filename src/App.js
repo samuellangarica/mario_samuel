@@ -1,11 +1,14 @@
 import React from 'react';
 import logo from './logo_up.png';
+import OurProjects from './screens/OurProjects';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+
+        
         <img src={logo} className="App-logo" alt="logo" />
         <div className="wavy">
           <span style={{'--i': 1}}>L</span>
@@ -19,7 +22,8 @@ function App() {
         </div>
       </header>
     </div>
+    
   );
 }
 
-export default App;
+export default OurProjects;

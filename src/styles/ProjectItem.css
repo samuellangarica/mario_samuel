@@ -1,0 +1,19 @@
+.project-item{
+    background-color: rgb(166, 166, 166);
+    width: 20vw;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.project-item:hover{
+    background-color: rgb(82, 82, 82);
+}
+#name {
+    font-weight: 400;
+}
+#year {
+    font-weight: 100;
+}

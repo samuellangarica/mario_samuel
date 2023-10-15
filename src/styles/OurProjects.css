@@ -1,0 +1,22 @@
+.mario {
+    display: flex;
+    flex-direction: row;
+}
+.samuel {
+    display: flex;
+    flex-direction: row;
+}
+
+h1{
+    font-size: 3vw;
+    color: white;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+h2 {
+    padding-top: 50px;
+    font-size: 2vw;
+    color: white;
+    padding-bottom: 15px;
+}
