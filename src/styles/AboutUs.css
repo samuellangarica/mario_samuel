@@ -1,13 +1,12 @@
-.home {
-    width: 100%;
+h1 {
+    position: relative;
+    top: 8vh;
 }
 #about-us {
     width: 100%;
     display: flex;
     flex: row;
     justify-content: center;
-}
-.vertical-line {
 }
 .user {
     max-width: 50%;
@@ -18,13 +17,26 @@
 .user.mario{
     margin-right: 10px;
     align-items: end;
+    text-align: end;
 }
 .user.samuel{
     margin-left: 10px;
     align-items: start;
+    text-align: start;
 }
 img {
-    max-width: 50%;
+    max-width: 35%;
     border-radius: 20px;
 
+}
+.description {
+    width: 80%;
+}
+.name {
+    font-weight: bold;
+    margin: 0;
+}
+hr {
+    color: white;
+    width: 100%;
 }

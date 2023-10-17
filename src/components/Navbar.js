@@ -5,18 +5,17 @@ import '../styles/Navbar.css'
 const Navbar = () => {
   return (
     <div className='navbar'>
+        <Link className='link' to="/">
+            Home
+        </Link>
 
-        <div className='btn'>
-          <Link to="/">Home</Link>
-        </div>
+        <Link className='link' to="/our-projects">
+            Our Projects
+        </Link>
 
-        <div className='btn'>
-          <Link to="/our-projects">Our Projects</Link>
-        </div>
-
-        <div className='btn'>
-          <Link to="/about-us">About Us</Link>
-        </div>
+        <Link className='link' to="/about-us">
+            About Us
+        </Link>
 
 
     </div>
