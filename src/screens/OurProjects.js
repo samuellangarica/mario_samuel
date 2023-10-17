@@ -45,13 +45,13 @@ function OurProjects() {
   return (
     <div className="our-projects-content">
 
-        <h1>OurProjects</h1>
+        <p id='our-projects-title'>OurProjects</p>
         <hr></hr>
-        <h2>Mario's Projects</h2>
 
-        <div className='mario'>
+        <div className='mario-p'>
 
-            <div id='projects-list'>
+            <div className='projects-list'>
+                <p className='name-p'>Mario's Projects</p>
                 {
                     mario_projects.map((project, index) => (
                         <ProjectItem key={index} data={project} onClick={() => setSelectedMarioProject(index)}></ProjectItem>
@@ -66,22 +66,21 @@ function OurProjects() {
         </div>
 
 
-        <h2>Samuel's Projects</h2>
+        <div className='samuel-p'>
 
-        <div className='samuel'>
-
-            <div id='projects-list'>
+            <div className='projects-list'>
+                <p className='name-p'>Samuel's Projects</p>
                 {
                     samuel_projects.map((project, index) => (
-                        <ProjectItem key={index} data={project} onClick={() => setSelectedSamuelProject(index)}></ProjectItem>
+                        <ProjectItem key={index} data={project} onClick={() => selectedSamuelProject(index)}></ProjectItem>
                     ))
                 }
             </div>
 
             <div className='project-overview'>
-                <ProjectOverview data={samuel_projects[selectedSamuelProject]}/>
+                <ProjectOverview id='p' data={samuel_projects[selectedSamuelProject]}/>
             </div>
-
+            
         </div>
 
         

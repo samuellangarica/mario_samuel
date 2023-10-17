@@ -7,9 +7,7 @@ function ProjectOverview({data, onClick}){
     return(
         <div className='content' onClick={onClick}>
 
-            <p id='p-name'>
-                {name}
-            </p>
+            
 
             <div className='details'>
                 <p>Description:</p>
@@ -24,6 +22,9 @@ function ProjectOverview({data, onClick}){
 
             </div>
             
+            <p id='p-name'>
+                {name}
+            </p>
             
         </div>
     )
