@@ -1,7 +1,9 @@
 * {
     box-sizing: border-box;
   }
-  
+  .banner{
+    margin-bottom: auto;
+  }
   
   h1 {
     color: #333;
@@ -13,12 +15,12 @@
     white-space: nowrap;
     overflow: hidden;
     position: relative;
-    width: 550px;
+    width: 500px;
   }
   
   h1 span {
     font-size: 40px;
-    margin-left: 40px;
+    margin-left: 20px;
   }
   
   .message {
