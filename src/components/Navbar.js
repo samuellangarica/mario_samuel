@@ -4,7 +4,7 @@ import '../styles/Navbar.css'
 
 const Navbar = () => {
   return (
-    <nav className='navbar'>
+    <div className='navbar'>
 
         <div className='btn'>
           <Link to="/">Home</Link>
@@ -19,7 +19,7 @@ const Navbar = () => {
         </div>
 
 
-    </nav>
+    </div>
   );
 };
 

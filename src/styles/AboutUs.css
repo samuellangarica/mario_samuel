@@ -1,0 +1,29 @@
+.home {
+    width: 100%;
+}
+#about-us {
+    width: 100%;
+    display: flex;
+    flex: row;
+    justify-content: center;
+    border: solid red 1px;
+}
+.vertical-line {
+}
+.user {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.user.mario{
+    margin-right: 10px;
+    align-items: end;
+}
+.user.samuel{
+    margin-left: 10px;
+    align-items: start;
+}
+img {
+    max-width: 50%;
+}
