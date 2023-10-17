@@ -1,10 +1,17 @@
 import React from 'react';
+import '../styles/Home.css'; 
 
 function Home() {
   return (
-    <div className='home'>
-        <h1>Home</h1>
-    </div>
+    <>
+      <h1>
+        <span>Portfolio</span>
+        <div className="message">
+          <div className="word1">Samuel</div>
+          <div className="word2">Mario</div>
+        </div>
+      </h1>
+    </>
   );
 }
 
