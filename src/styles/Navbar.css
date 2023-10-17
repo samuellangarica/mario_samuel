@@ -1,9 +1,17 @@
 .navbar {
     border: solid red 1px;
+    height: 8vh;
     width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: right;
 }
 .btn {
     border: solid red 1px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(202, 202, 202);
+    border-radius: 10px;
+    margin: 5px;
+
 }
