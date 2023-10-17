@@ -26,3 +26,6 @@
     padding-right: 30px;
     transition: padding 0.25s ease-in-out;
 }
+@media (max-width: 600px){
+    
+}

@@ -21,3 +21,10 @@
     font-weight: bold;
 
 }
+@media (max-width: 600px) {
+    .content{
+        width: 60vw;
+        flex-direction: column;
+    }
+    
+}

@@ -17,6 +17,20 @@ const mario_projects = [
         description: 'defrg agveda fcwref  wrefvg wer fg we fw ef ',
         language: 'Python',
         skills: 'Data Structures'
+    },
+    {
+        name: 'Project 2',
+        year: 2022,
+        description: 'iwquyefqiwyue wiuyfebreikyufhgb   wuyfebweydh',
+        language: 'Python',
+        skills: 'Data Structures'
+    },
+    {
+        name: 'Project 2',
+        year: 2022,
+        description: 'iwquyefqiwyue wiuyfebreikyufhgb   wuyfebweydh',
+        language: 'Python',
+        skills: 'Data Structures'
     }
 ];
 
@@ -27,6 +41,20 @@ const samuel_projects = [
         description: 'uiok et q3 gv yruir4ytrh wretytgyre',
         language: 'Java',
         skills: 'OOP'
+    },
+    {
+        name: 'Project 2',
+        year: 2022,
+        description: 'iwquyefqiwyue wiuyfebreikyufhgb   wuyfebweydh',
+        language: 'Python',
+        skills: 'Data Structures'
+    },
+    {
+        name: 'Project 2',
+        year: 2022,
+        description: 'iwquyefqiwyue wiuyfebreikyufhgb   wuyfebweydh',
+        language: 'Python',
+        skills: 'Data Structures'
     },
     {
         name: 'Project 2',
@@ -59,9 +87,7 @@ function OurProjects() {
                 }
             </div>
 
-            <div className='project-overview'>
-                <ProjectOverview id='p' data={mario_projects[selectedMarioProject]}/>
-            </div>
+            <ProjectOverview  className='project-overview' data={mario_projects[selectedMarioProject]}/>
             
         </div>
 
@@ -77,9 +103,7 @@ function OurProjects() {
                 }
             </div>
 
-            <div className='project-overview'>
-                <ProjectOverview id='p' data={samuel_projects[selectedSamuelProject]}/>
-            </div>
+            <ProjectOverview className='project-overview' data={samuel_projects[selectedSamuelProject]}/>
             
         </div>
 

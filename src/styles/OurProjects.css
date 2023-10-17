@@ -23,13 +23,20 @@ h2 {
     color: white;
     padding-bottom: 15px;
 }
-* {
-    /*border: solid red 1px;*/
-}
 .projects-list{
     display: flex;
 }
 .name-p{
     color: white;
     font-size: 35px;
+}
+@media (max-width: 600px) {
+    .name-p{
+        font-size: 25px;
+    }
+    .projects-list{
+        width: 80%;
+        align-items: center;
+    }
+    
 }

@@ -18,3 +18,17 @@
 #year {
     font-weight: 100;
 }
+@media (max-width: 600px) {
+    .project-item{
+        max-width: 150px;
+        flex-direction: column;
+        padding: 3px;
+        text-align: center;
+    }
+    .project-item #name{
+        margin: 0;
+    }
+    .project-item #year{
+        margin: 0;
+    }
+}
