@@ -1,8 +1,8 @@
 import React from 'react';
 import '../styles/AboutUs.css'
-import margo from '../images/margo.jpg'
 import mario from '../images/mario.jpg'
 import SocialMedia from '../components/SocialMedia';
+import samuel from '../images/samuel.jpg';
 
 function AboutUs() {
     const marioData = {
@@ -36,21 +36,22 @@ function AboutUs() {
                 </p>
                 <hr></hr>
 
-                <p className='email'><b>Email: </b>{samuelData.email}</p>
                 <p className='name'><b>Mario Alejandro Rodriguez Gonzalez</b> | {marioData.carrer} </p>
+                <p className='email'><b>Email: </b>{marioData.email}</p>
                 <SocialMedia data={marioData}></SocialMedia>
 
             </div>
 
             <div className='user samuel'>
 
-                <img src={margo}></img>
+                <img src={samuel}></img>
                 <p className='description'>
                     {samuelData.description}
                 </p>
                 <hr></hr>
 
                 <p className='name'><b>Samuel Langarica</b> | {samuelData.carrer} </p>
+                <p className='email'><b>Email: </b>{samuelData.email}</p>
                 <SocialMedia data={samuelData}></SocialMedia>
 
             </div>

@@ -1,11 +1,10 @@
 .content {
-    background-color: #d4d4d4;
+    background-color: #BBE1FA;
     width: 40vw;
     border-radius: 15px;
     display: flex;
     align-items: center;
     height: 100%;
-    border: solid #FFD369 5px;
     padding: 8px;
 }
 *{

@@ -1,5 +1,5 @@
 .project-item{
-    background-color: #FFD369;
+    background-color: #3282B8;
     height: 50px;
     margin: 10px;
     padding-left: 3px;
@@ -8,10 +8,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 .project-item:hover{
     background-color: #EEEEEE;
+    margin-top: 0;
+    transition: all 0.3s ease-in;
 }
 #name {
     font-weight: 900;
