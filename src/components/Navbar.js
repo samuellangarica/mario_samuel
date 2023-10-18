@@ -5,7 +5,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 const Navbar = () => {
 
-  const [openMenu,setOpenMenu ] = useState(0);
+  const [openMenu,setOpenMenu ] = useState(1);
   function handleClick(){
     setOpenMenu(!openMenu);
   }

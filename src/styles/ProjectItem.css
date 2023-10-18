@@ -1,23 +1,25 @@
 .project-item{
-    background-color: rgb(166, 166, 166);
+    background-color: #FFD369;
     height: 50px;
     margin: 10px;
     padding: 0;
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }
 .project-item:hover{
-    background-color: rgb(82, 82, 82);
+    background-color: #EEEEEE;
 }
 #name {
     font-weight: 900;
     font-size: 13px;
+    margin-right: 10px;
 }
 #year {
     font-weight: 100;
-    font-size: 12px;
+    font-size: 13px;
 }
 @media (max-width: 600px) {
     .project-item{

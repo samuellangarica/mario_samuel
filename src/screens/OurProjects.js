@@ -73,12 +73,28 @@ function OurProjects() {
   return (
     <div className="our-projects-content">
 
-        <p id='our-projects-title'>OurProjects</p>
+        <p id='our-projects-title'>Our Projects</p>
         <hr></hr>
 
         <div className='mario-p'>
 
             <p className='name-p'>Mario's Projects</p>
+
+            <div className='projects-list'>
+                {
+                    mario_projects.map((project, index) => (
+                        <ProjectItem key={index} data={project} onClick={() => setSelectedMarioProject(index)}></ProjectItem>
+                    ))
+                }
+            </div>
+
+            <ProjectOverview  className='project-overview' data={mario_projects[selectedMarioProject]}/>
+            
+        </div>
+
+        <div className='mario-p'>
+
+            <p className='name-p'>Samuel's Projects</p>
 
             <div className='projects-list'>
                 {
