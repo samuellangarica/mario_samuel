@@ -10,67 +10,59 @@ const mario_projects = [
         year: 2023,
         description: "Development of a ray tracer application using object oriented programming principles to achieve realistic rendering of 3D scenes",
         language: 'Java',
-        skills: 'OOP',
-        image: <img src={chessRender}></img>
+        skills: 'OOP'
     },
     {
         name: 'Maze Solver',
         year: 2021,
         description: 'Efficient maze solving algorithm using BFS',
         language: 'Python',
-        skills: 'Data Structures',
-        image: <img src={chessRender}></img>
+        skills: 'Data Structures'
     },
     {
-        name: 'Project 2',
+        name: 'Modelling Software',
         year: 2022,
-        description: 'iwquyefqiwyue wiuyfebreikyufhgb   wuyfebweydh',
-        language: 'Python',
-        skills: 'Data Structures',
-        image: <img src={chessRender}></img>
+        description: 'Implementation of the WebGL Graphics Pipeline for the development of a basic 3Dmodelling software',
+        language: 'Javascript',
+        skills: 'WebGL'
     },
     {
-        name: 'Project 2',
+        name: 'Chess Game',
         year: 2022,
-        description: 'iwquyefqiwyue wiuyfebreikyufhgb   wuyfebweydh',
-        language: 'Python',
-        skills: 'Data Structures',
-        image: <img src={chessRender}></img>
+        description: 'Java two player chess game',
+        language: 'Java',
+        skills: 'OOP'
     }
 ];
 
 const samuel_projects = [
     {
-        name: 'Project 1',
+        name: 'Raytracer',
         year: 2023,
-        description: 'uiok et q3 gv yruir4ytrh wretytgyre',
+        description: "Development of a ray tracer application using object oriented programming principles to achieve realistic rendering of 3D scenes",
         language: 'Java',
-        skills: 'OOP',
-        image: <img src={chessRender}></img>
+        skills: 'OOP'
     },
     {
-        name: 'Project 2',
-        year: 2022,
-        description: 'iwquyefqiwyue wiuyfebreikyufhgb   wuyfebweydh',
+        name: 'Maze Solver',
+        year: 2021,
+        description: 'Efficient maze solving algorithm using BFS',
         language: 'Python',
-        skills: 'Data Structures',
-        image: <img src={chessRender}></img>
+        skills: 'Data Structures'
     },
     {
-        name: 'Project 2',
+        name: 'Modelling Software',
         year: 2022,
-        description: 'iwquyefqiwyue wiuyfebreikyufhgb   wuyfebweydh',
-        language: 'Python',
-        skills: 'Data Structures',
-        image: <img src={chessRender}></img>
+        description: 'Implementation of the WebGL Graphics Pipeline for the development of a basic 3Dmodelling software',
+        language: 'Javascript',
+        skills: 'WebGL'
     },
     {
-        name: 'Project 2',
+        name: 'Chess Game',
         year: 2022,
-        description: 'iwquyefqiwyue wiuyfebreikyufhgb   wuyfebweydh',
-        language: 'Python',
-        skills: 'Data Structures',
-        image: <img src={chessRender}></img>
+        description: 'Java two player chess game',
+        language: 'Java',
+        skills: 'OOP'
     }
 ];
 

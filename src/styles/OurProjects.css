@@ -19,7 +19,8 @@
 }
 .projects-list{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    width: 40vw;
 }
 .name-p{
     color: white;

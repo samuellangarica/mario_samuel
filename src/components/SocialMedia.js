@@ -10,8 +10,8 @@ function SocialMedia({data}){
     
     return(
         <div className='social-media-bar'>
-            <LinkedInIcon/>
-            <InstagramIcon/>
+            <a href={linked_in}><LinkedInIcon className='linked-in'/></a>
+            <a href={instagram}><InstagramIcon className='instagram'/></a>
         </div>
     )
 };

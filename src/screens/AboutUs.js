@@ -11,6 +11,14 @@ function AboutUs() {
         age: 22,
         carrer: 'Computer Graphics and Systems Engineer'
     }
+    const samuelData = {
+        linked_in: 'https://www.linkedin.com/in/samuel-langarica/',
+        instagram: 'https://instagram.com/samuelangarica?igshid=YTQwZjQ0NmI0OA==',
+        description: 'I am a student in Systems Engineering with a minor in Computer Graphics, actively seeking opportunities to take the first steps into my professional career.',
+        email:'samuel.langarica.m@gmail.com', 
+        age: 22,
+        carrer: 'Computer Graphics and Systems Engineer'
+    }
   return (
     <div id='about-us-content'>
         
@@ -28,6 +36,7 @@ function AboutUs() {
                 <hr></hr>
 
                 <p className='name'><b>Samuel Langarica</b> | {marioData.carrer} </p>
+                <p className='email'><b>Email: </b>{samuelData.email}</p>
                 <SocialMedia data={marioData}></SocialMedia>
 
             </div>
@@ -36,12 +45,12 @@ function AboutUs() {
 
                 <img src={margo}></img>
                 <p className='description'>
-                    {marioData.description}
+                    {samuelData.description}
                 </p>
                 <hr></hr>
 
-                <p className='name'><b>Samuel Langarica</b> | {marioData.carrer} </p>
-                <SocialMedia data={marioData}></SocialMedia>
+                <p className='name'><b>Samuel Langarica</b> | {samuelData.carrer} </p>
+                <SocialMedia data={samuelData}></SocialMedia>
 
             </div>
 
