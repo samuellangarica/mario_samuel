@@ -1,10 +1,14 @@
 * {
-    box-sizing: border-box;
-  }
-  .banner{
+  box-sizing: border-box;}.banner {
     margin-bottom: auto;
-  }
-  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;}
+
+
+
+
   h1 {
     color: antiquewhite;
     font-family: tahoma;
@@ -17,12 +21,12 @@
     position: relative;
     width: 500px;
   }
-  
+
   h1 span {
     font-size: 40px;
     margin-left: 20px;
   }
-  
+
   .message {
     background-color: yellow;
     color: #333;
@@ -35,11 +39,11 @@
     left: 270px;
     animation: openclose 5s ease-in-out infinite;
   }
-  
+
   .word1, .word2 {
     font-family: tahoma;
   }
-  
+
   @keyframes openclose {
     0% {
       top: 0.2rem;
@@ -65,7 +69,7 @@
     }
     38% {
       top: -4.5rem;
-      
+
     }
     48% {
       top: -4.5rem;
@@ -102,5 +106,12 @@
       top: 0;
       width: 0;
       text-indent: 0;
+    }
+  }
+
+  @media screen and (max-width: 40em){
+    img {
+      height: 100%;
+      object-fit: cover;
     }
   }
