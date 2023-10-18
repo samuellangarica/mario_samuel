@@ -26,6 +26,39 @@
     color: white;
     font-size: 35px;
 }
+#left-decor{
+    position: fixed;
+    top: 80px;
+    width: 10%;
+    height: 100%;
+    background-image: url('../images/background.png');
+}
+#right-decor{
+    position: fixed;
+    top: 80px;
+    right: 0;
+    width: 10%;
+    height: 100%;
+    background-image: url('../images/background.png');
+}
+#left-transparent-decor{
+    position: fixed;
+    left: 10%;
+    top: 80px;
+    width: 10%;
+    height: 100%;
+    background-image: url('../images/background.png');
+    opacity: 0.1;
+}
+#right-transparent-decor{
+    position: fixed;
+    right: 10%;
+    top: 80px;
+    width: 10%;
+    height: 100%;
+    background-image: url('../images/background.png');
+    opacity: 0.1;
+}
 @media (max-width: 600px) {
     .name-p{
         font-size: 25px;
@@ -34,5 +67,7 @@
         width: 80%;
         align-items: center;
     }
-    
+    .decor{
+        display: none;
+    }
 }

@@ -73,9 +73,16 @@ function OurProjects() {
 
   return (
     <div className="our-projects-content">
+        
 
         <p id='our-projects-title'>OUR PROJECTS</p>
         <hr></hr>
+        <div className='decor'>
+            <div id='left-decor'></div>
+            <div id='left-transparent-decor'></div>
+            <div id='right-decor'></div>
+            <div id='right-transparent-decor'></div>
+        </div>
 
         <div className='mario-p'>
 

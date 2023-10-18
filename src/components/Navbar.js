@@ -27,6 +27,10 @@ const Navbar = () => {
             About Us
         </Link>
 
+        <Link className='link' to="/resumes">
+            Resumes
+        </Link>
+
       </div>
         
 
@@ -47,6 +51,10 @@ const Navbar = () => {
 
           <Link className='link' to="/about-us" onClick={handleClick}>
               About Us
+          </Link>
+
+          <Link className='link' to="/resumes" onClick={handleClick}>
+              Resumes
           </Link>
         </div>
 
