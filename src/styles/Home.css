@@ -4,9 +4,13 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-end;}
-
-
+    align-items: flex-end;
+  }
+  img {
+        align-items: center;
+        padding-top: 5%;
+        margin-bottom: -5%;
+  }
 
 
   h1 {
