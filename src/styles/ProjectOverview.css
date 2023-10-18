@@ -1,7 +1,6 @@
 .content {
     background-color: rgb(166, 166, 166);
     width: 40vw;
-    margin-left: 10vw;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -23,7 +22,7 @@
 }
 @media (max-width: 600px) {
     .content{
-        width: 60vw;
+        width: 80%;
         flex-direction: column;
     }
     

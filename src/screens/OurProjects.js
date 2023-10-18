@@ -78,8 +78,9 @@ function OurProjects() {
 
         <div className='mario-p'>
 
+            <p className='name-p'>Mario's Projects</p>
+
             <div className='projects-list'>
-                <p className='name-p'>Mario's Projects</p>
                 {
                     mario_projects.map((project, index) => (
                         <ProjectItem key={index} data={project} onClick={() => setSelectedMarioProject(index)}></ProjectItem>
@@ -90,26 +91,6 @@ function OurProjects() {
             <ProjectOverview  className='project-overview' data={mario_projects[selectedMarioProject]}/>
             
         </div>
-
-
-        <div className='samuel-p'>
-
-            <div className='projects-list'>
-                <p className='name-p'>Samuel's Projects</p>
-                {
-                    samuel_projects.map((project, index) => (
-                        <ProjectItem key={index} data={project} onClick={() => selectedSamuelProject(index)}></ProjectItem>
-                    ))
-                }
-            </div>
-
-            <ProjectOverview className='project-overview' data={samuel_projects[selectedSamuelProject]}/>
-            
-        </div>
-
-        
-
-
 
     </div>
   );
