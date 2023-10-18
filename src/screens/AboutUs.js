@@ -5,17 +5,18 @@ import SocialMedia from '../components/SocialMedia';
 import samuel from '../images/samuel.jpg';
 
 function AboutUs() {
-    const marioData = {
-        linked_in: 'https://www.linkedin.com/in/samuel-langarica/',
-        instagram: '',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed elementum tempus egestas sed sed risus. Id faucibus nisl tincidunt eget',
+    const aboutMario = {
+        linked_in: 'https://www.linkedin.com/in/mario-rodriguez-g-689552241',
+        instagram: 'https://www.instagram.com/mariorg09/',
+        description: 'hi im mario alejandro rodriguez gonzalez, i was born in guadalajara, jalisco on october 11, 2001, i unfortunately lived 18 years in colima where i studied high school at anahuac, im currently a 7th semester student of the career of computer systems and graphics engineering, i really like video games and a system i would like to learn more about on my part is linux.',
+        email:'marioarodriguezg01@gmail.com', 
         age: 22,
         carrer: 'Computer Graphics and Systems Engineer'
-    }
-    const samuelData = {
+        }
+    const aboutSamuel = {
         linked_in: 'https://www.linkedin.com/in/samuel-langarica/',
         instagram: 'https://instagram.com/samuelangarica?igshid=YTQwZjQ0NmI0OA==',
-        description: 'I am a student in Systems Engineering with a minor in Computer Graphics, actively seeking opportunities to take the first steps into my professional career.',
+        description: 'I am a student in Systems Engineering with a minor in Computer Graphics, actively seeking opportunities to take the first steps into my professional career. Being deeply passionate about technology, I am eager to develop my skills and to contribute in a meaningful way in innovative projects.',
         email:'samuel.langarica.m@gmail.com', 
         age: 22,
         carrer: 'Computer Graphics and Systems Engineer'
@@ -24,6 +25,13 @@ function AboutUs() {
     <div id='about-us-content'>
         
         <p id='about-us-title'>About Us</p>
+        <hr></hr>
+        <div className='decor'>
+            <div id='left-decor'></div>
+            <div id='left-transparent-decor'></div>
+            <div id='right-decor'></div>
+            <div id='right-transparent-decor'></div>
+        </div>
 
         <div id='about-us'>
 
@@ -32,13 +40,13 @@ function AboutUs() {
                 <img src={mario}></img>
 
                 <p className='description'>
-                    {marioData.description}
+                    {aboutMario.description}
                 </p>
                 <hr></hr>
 
-                <p className='name'><b>Mario Alejandro Rodriguez Gonzalez</b> | {marioData.carrer} </p>
-                <p className='email'><b>Email: </b>{marioData.email}</p>
-                <SocialMedia data={marioData}></SocialMedia>
+                <p className='name'><b>Mario Alejandro Rodriguez Gonzalez</b> | {aboutMario.carrer} </p>
+                <p className='email'><b>Email: </b>{aboutMario.email}</p>
+                <SocialMedia data={aboutMario}></SocialMedia>
 
             </div>
 
@@ -46,13 +54,13 @@ function AboutUs() {
 
                 <img src={samuel}></img>
                 <p className='description'>
-                    {samuelData.description}
+                    {aboutSamuel.description}
                 </p>
                 <hr></hr>
 
-                <p className='name'><b>Samuel Langarica</b> | {samuelData.carrer} </p>
-                <p className='email'><b>Email: </b>{samuelData.email}</p>
-                <SocialMedia data={samuelData}></SocialMedia>
+                <p className='name'><b>Samuel Langarica</b> | {aboutSamuel.carrer} </p>
+                <p className='email'><b>Email: </b>{aboutSamuel.email}</p>
+                <SocialMedia data={aboutSamuel}></SocialMedia>
 
             </div>
 

@@ -1,0 +1,26 @@
+#resumes-content{
+    width: 100%;
+}
+#our-resumes-title{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+#cvs{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cv {
+    padding: 10px;
+}
+@media (max-width: 600px){
+    #cvs{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cv{
+        margin: 20px;
+    }
+}
+

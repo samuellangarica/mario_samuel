@@ -11,8 +11,6 @@
         padding-top: 0%;
         margin-bottom: -5%;
   }
-
-
   h1 {
     color: antiquewhite;
     font-family: tahoma;
@@ -29,6 +27,11 @@
   h1 span {
     font-size: 40px;
     margin-left: 20px;
+  }
+  #home{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
   }
 
   .message {
@@ -117,5 +120,13 @@
     img {
       height: 100%;
       object-fit: cover;
+    }
+  }
+  @media (max-width: 600px) {
+    #home{
+      flex-direction: column;
+      justify-content: start;
+      align-items: start;
+      text-align: start;
     }
   }
