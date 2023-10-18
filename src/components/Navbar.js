@@ -37,15 +37,15 @@ const Navbar = () => {
         </MenuIcon>
 
         <div className='btns'>
-        <Link className='link' to="/">
+        <Link className='link' to="/" onClick={handleClick}>
               Home
           </Link>
 
-          <Link className='link' to="/our-projects">
+          <Link className='link' to="/our-projects" onClick={handleClick}>
               Our Projects
           </Link>
 
-          <Link className='link' to="/about-us">
+          <Link className='link' to="/about-us" onClick={handleClick}>
               About Us
           </Link>
         </div>

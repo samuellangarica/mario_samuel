@@ -2,35 +2,40 @@ import { useEffect, useState } from 'react';
 import ProjectItem from '../components/ProjectItem';
 import ProjectOverview from '../components/ProjectOverview';
 import '../styles/OurProjects.css';
+import chessRender from '../images/chess_raytracer.png';
 
 const mario_projects = [
     {
-        name: 'Project 1',
+        name: 'Raytracer',
         year: 2023,
-        description: 'kjsdnbf ksjdnbfwq vuvcxgywe kauydbsf wkjwdgfw i',
+        description: "Development of a ray tracer application using object oriented programming principles to achieve realistic rendering of 3D scenes",
         language: 'Java',
-        skills: 'OOP'
+        skills: 'OOP',
+        image: <img src={chessRender}></img>
     },
     {
-        name: 'Project 2',
-        year: 2022,
-        description: 'defrg agveda fcwref  wrefvg wer fg we fw ef ',
+        name: 'Maze Solver',
+        year: 2021,
+        description: 'Efficient maze solving algorithm using BFS',
         language: 'Python',
-        skills: 'Data Structures'
-    },
-    {
-        name: 'Project 2',
-        year: 2022,
-        description: 'iwquyefqiwyue wiuyfebreikyufhgb   wuyfebweydh',
-        language: 'Python',
-        skills: 'Data Structures'
+        skills: 'Data Structures',
+        image: <img src={chessRender}></img>
     },
     {
         name: 'Project 2',
         year: 2022,
         description: 'iwquyefqiwyue wiuyfebreikyufhgb   wuyfebweydh',
         language: 'Python',
-        skills: 'Data Structures'
+        skills: 'Data Structures',
+        image: <img src={chessRender}></img>
+    },
+    {
+        name: 'Project 2',
+        year: 2022,
+        description: 'iwquyefqiwyue wiuyfebreikyufhgb   wuyfebweydh',
+        language: 'Python',
+        skills: 'Data Structures',
+        image: <img src={chessRender}></img>
     }
 ];
 
@@ -40,28 +45,32 @@ const samuel_projects = [
         year: 2023,
         description: 'uiok et q3 gv yruir4ytrh wretytgyre',
         language: 'Java',
-        skills: 'OOP'
+        skills: 'OOP',
+        image: <img src={chessRender}></img>
     },
     {
         name: 'Project 2',
         year: 2022,
         description: 'iwquyefqiwyue wiuyfebreikyufhgb   wuyfebweydh',
         language: 'Python',
-        skills: 'Data Structures'
+        skills: 'Data Structures',
+        image: <img src={chessRender}></img>
     },
     {
         name: 'Project 2',
         year: 2022,
         description: 'iwquyefqiwyue wiuyfebreikyufhgb   wuyfebweydh',
         language: 'Python',
-        skills: 'Data Structures'
+        skills: 'Data Structures',
+        image: <img src={chessRender}></img>
     },
     {
         name: 'Project 2',
         year: 2022,
         description: 'iwquyefqiwyue wiuyfebreikyufhgb   wuyfebweydh',
         language: 'Python',
-        skills: 'Data Structures'
+        skills: 'Data Structures',
+        image: <img src={chessRender}></img>
     }
 ];
 
@@ -73,12 +82,12 @@ function OurProjects() {
   return (
     <div className="our-projects-content">
 
-        <p id='our-projects-title'>Our Projects</p>
+        <p id='our-projects-title'>OUR PROJECTS</p>
         <hr></hr>
 
         <div className='mario-p'>
 
-            <p className='name-p'>Mario's Projects</p>
+            <p className='name-p'>Mario's projects</p>
 
             <div className='projects-list'>
                 {
@@ -94,7 +103,7 @@ function OurProjects() {
 
         <div className='mario-p'>
 
-            <p className='name-p'>Samuel's Projects</p>
+            <p className='name-p'>Samuel's projects</p>
 
             <div className='projects-list'>
                 {

@@ -58,6 +58,7 @@ hr {
     .user.mario{
         min-width: 100%;
         align-items: center;
+        text-align: center;
         padding-top: 10%;
         margin-bottom: 15%;
         background-color: #222831;
@@ -65,5 +66,6 @@ hr {
     .user.samuel{
         min-width: 100%;
         align-items: center;
+        text-align: center;
     }
   }

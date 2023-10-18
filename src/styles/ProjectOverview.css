@@ -1,19 +1,24 @@
 .content {
     background-color: #EEEEEE;
     width: 40vw;
-    border-radius: 10px;
+    border-radius: 15px;
     display: flex;
     align-items: center;
+    height: 100%;
 }
-#p-name {
-    font-size: 30px;
-    width: 50%;
-    height: auto;
-    text-align: center;
+*{
+}
+#project-image {
+    width: 40%;
+    display: flex;
+    justify-content: center;
 }
 .details {
+    height: 100%;
     margin-left: 20px;
     padding: 5px;
+    text-align: justify;
+    width: 100%;
 }
 
 .details p {

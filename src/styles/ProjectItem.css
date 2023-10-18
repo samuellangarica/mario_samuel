@@ -2,7 +2,8 @@
     background-color: #FFD369;
     height: 50px;
     margin: 10px;
-    padding: 0;
+    padding-left: 3px;
+    padding-right: 3px;
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
@@ -25,7 +26,6 @@
     .project-item{
         max-width: 150px;
         flex-direction: column;
-        padding: 3px;
         text-align: center;
     }
     .project-item #name{

@@ -2,7 +2,7 @@ import '../styles/ProjectOverview.css';
 
 function ProjectOverview({data, onClick}){
 
-    const {name, year, description, language, skills} = data;
+    const {name, year, description, language, skills, image} = data;
     
     return(
         <div className='content' onClick={onClick}>
@@ -21,11 +21,7 @@ function ProjectOverview({data, onClick}){
 
 
             </div>
-            
-            <p id='p-name'>
-                {name}
-            </p>
-            
+
         </div>
     )
 };
