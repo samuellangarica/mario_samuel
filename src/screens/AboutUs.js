@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/AboutUs.css'
 import margo from '../images/margo.jpg'
+import mario from '../images/mario.jpg'
 import SocialMedia from '../components/SocialMedia';
 
 function AboutUs() {
@@ -28,15 +29,15 @@ function AboutUs() {
 
             <div className='user mario'>
 
-                <img src={margo}></img>
+                <img src={mario}></img>
 
                 <p className='description'>
                     {marioData.description}
                 </p>
                 <hr></hr>
 
-                <p className='name'><b>Samuel Langarica</b> | {marioData.carrer} </p>
                 <p className='email'><b>Email: </b>{samuelData.email}</p>
+                <p className='name'><b>Mario Alejandro Rodriguez Gonzalez</b> | {marioData.carrer} </p>
                 <SocialMedia data={marioData}></SocialMedia>
 
             </div>
